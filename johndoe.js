@@ -19,6 +19,10 @@ $(document).ready(function(){
     });
 });
 
+let portfolio_container=document.getElementById("containerr");
+
+
+
 // protfolio filters
 $(window).on("load", function() {
     var t = $(".portfolio-container");
@@ -30,8 +34,14 @@ $(window).on("load", function() {
             queue: !1
         }
     }), $(".filters a").click(function() {
+      
         $(".filters .active").removeClass("active"), $(this).addClass("active");
         var i = $(this).attr("data-filter");
+      
+        if(i==".all"){portfolio_container.style.height="20%";}
+
+    
+
         return t.isotope({
             filter: i,
             animationOptions: {
@@ -142,3 +152,4 @@ let abcard=document.getElementById("abcard");
 let padreabbcard=document.getElementById("about");
 
 abcard.style="min-height:"+ (padreabbcard.clientHeight*52/100) + "px";
+

@@ -547,6 +547,8 @@ pre code {
   overflow-y: scroll;
 }
 
+.all{position: absolute; display: block; }
+
 .container {
   width: 100%;
   padding-right: 15px;
@@ -640,7 +642,7 @@ pre code {
   padding-right: 15px;
   padding-left: 15px;
   min-height: 100%;
-  max-height: 1005;
+  
 }
 
 .col {
@@ -11271,6 +11273,7 @@ p {
   padding: 4px 10px;
   transition: 0.3s;
   -webkit-transition: 0.3s;
+  border-style: none;
 }
 
 .portfolio .filters a:first-child {
@@ -11289,6 +11292,13 @@ p {
   opacity: 1;
   background: #F85C70;
   color: #fff;
+}
+
+.portfolio .filters button.active {
+  opacity: 1;
+  background: #F85C70;
+  color: #fff;
+  border-style: none ;
 }
 
 .portfolio .portfolio-container .portfolio-item {
@@ -11360,6 +11370,7 @@ p {
   margin-bottom: 30px;
   overflow: hidden;
   margin: 0 15px 30px;
+  width: 100%;
 }
 
 .blog-card .img-holder {
@@ -11655,6 +11666,8 @@ pre .code {
   color: #212529;
 }
 
+
+
 .header-mini {
   min-height: 24rem;
   height: 24rem;
@@ -11823,4 +11836,46 @@ position: absolute;
 .fondo{position: absolute; background: url("ladrillos.jpeg"); z-index: 1; width: 100%; height: 100%;    display: grid;  }
 
 .width100{min-width: 100%; text-align: center;}
+
+.arcoiris{  background-image: url("imgs/rainbowl.png"); background-repeat: no-repeat; background-size:100%; width: 70%; height: 100%;}
+.bodycentrar{display: flex; align-items: center; justify-content: center; width: 100%; height:100vh ; background: #00A2E8;}
+
+.nube{width: 30%; height: 40%; background-image: url("imgs/nube.png"); position: absolute;  background-repeat: no-repeat; background-size: 100%; animation: movimiento-nube 5s linear infinite;    }
+
+.nubes{width: 30%; height: 40%; background-image: url("imgs/nube.png"); position: absolute;  background-repeat: no-repeat; background-size: 100%; animation: movimiento-nubes 5s linear infinite;    }
+
+.nubess{width: 30%; height: 40%; background-image: url("imgs/nube.png"); position: absolute;  background-repeat: no-repeat; background-size: 100%; animation: movimiento-nubes 10s linear infinite;    }
+
+.nubesss{width: 30%; height: 40%; background-image: url("imgs/nube.png"); position: absolute;  background-repeat: no-repeat; background-size: 100%; animation: movimiento-nubes 15s linear infinite;    }
+
+
+@keyframes movimiento-nube{ 
+0%{top: 45%; left: 16%;}
+10%{top: 40%; left: 16%;}
+20%{top: 30%; left: 18%;}
+30%{top: 30%; left: 19%;}
+40%{top: 20%; left: 19%;}
+50%{top: 10%; left: 27%;}
+60%{top: 5%; left: 27%;}
+70%{top: 5%; left: 35%;}
+80%{top: 5%; left: 39%;}
+90%{top: 5%; left: 45%;}
+91%{top: 10%; left: 45%;}
+92%{top: 15%; left: 46%;}
+93%{top: 20%; left: 47%;}
+94%{top: 25%; left: 48%;}
+95%{top: 30%; left: 50%;}
+96%{top: 35%; left: 55%;}
+97%{top: 40%; left: 55%;}
+98%{top: 45%; left: 55%;}
+99%{top: 50%; left: 55%;}
+100{top: 50%; left: 55%;}
+
+}
+
+@keyframes movimiento-nubes{ 
+0%{ top:0%; left: 0%;}
+100%{ top:0%;  left:100%}
+
+}
 

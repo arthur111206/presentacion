@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rainbow Aniation</title>
+    <link rel="stylesheet" href="johndoe.css">
+</head>
+<body class="bodycentrar">
+  
+<div class="nubes"></div> <div class="nubess"></div> <div class="nubesss"></div>
+<div class="arcoiris" id="arcoiris">
+
+    <div class="nube"></div>
+
+</div>
+
+<script>
+
+let arcoiris=document.getElementById("arcoiris");
+
+if(window.innerWidth>window.innerHeight){arcoiris.style.height="100%";}
+if(window.innerWidth<window.innerHeight){arcoiris.style.height="40%";}
+
+window.addEventListener(resize,function(e){
+
+    if(window.innerWidth>window.innerHeight){arcoiris.style.height="100%";}
+if(window.innerWidth<window.innerHeight){arcoiris.style.height="40%";}
+
+},true)
+
+
+</script>
+
+
+</body>
+</html>
