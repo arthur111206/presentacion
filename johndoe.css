@@ -11180,12 +11180,14 @@ p {
   font-size: 30px;
   margin-bottom: 20px;
   opacity: .8;
+  text-align: center;
 }
 
 .price-card .price-card-cost {
   position: relative;
   margin-bottom: 30px;
   opacity: .8;
+  text-align: center;
 }
 
 .price-card .price-card-cost sup {
