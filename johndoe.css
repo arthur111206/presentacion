@@ -11166,7 +11166,7 @@ p {
 
 @keyframes rotar {
   0%{transform: rotateY(0deg); background: white;}
-  100%{transform: rotateY(180deg); background-image: url("imgss/blog1.jpg"); background-repeat: no-repeat; background-size: cover;}
+  100%{transform: rotateY(180deg); background-image: url("imgs/blog1.jpg"); background-repeat: no-repeat; background-size: cover;}
 }
 
 .price-card:hover{
@@ -11180,14 +11180,12 @@ p {
   font-size: 30px;
   margin-bottom: 20px;
   opacity: .8;
-  text-align: center;
 }
 
 .price-card .price-card-cost {
   position: relative;
   margin-bottom: 30px;
   opacity: .8;
-  text-align: center;
 }
 
 .price-card .price-card-cost sup {
@@ -11600,8 +11598,8 @@ pre .code {
   position: relative;
   height: 80vh;
   min-height: 600px;
-  background-image: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(imgss/header.jpg);
-  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(imgss/header.jpg);
+  background-image: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(imgs/header.jpg);
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(imgs/header.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -11839,16 +11837,16 @@ position: absolute;
 
 .width100{min-width: 100%; text-align: center;}
 
-.arcoiris{  background-image: url("imgss/rainbowl.png"); background-repeat: no-repeat; background-size:100%; width: 70%; height: 100%;}
+.arcoiris{  background-image: url("imgs/rainbowl.png"); background-repeat: no-repeat; background-size:100%; width: 70%; height: 100%;}
 .bodycentrar{display: flex; align-items: center; justify-content: center; width: 100%; height:100vh ; background: #00A2E8;}
 
-.nube{width: 30%; height: 40%; background-image: url("imgss/nube.png"); position: absolute;  background-repeat: no-repeat; background-size: 100%; animation: movimiento-nube 5s linear infinite;    }
+.nube{width: 30%; height: 40%; background-image: url("imgs/nube.png"); position: absolute;  background-repeat: no-repeat; background-size: 100%; animation: movimiento-nube 5s linear infinite;    }
 
-.nubes{width: 30%; height: 40%; background-image: url("imgss/nube.png"); position: absolute;  background-repeat: no-repeat; background-size: 100%; animation: movimiento-nubes 5s linear infinite;    }
+.nubes{width: 30%; height: 40%; background-image: url("imgs/nube.png"); position: absolute;  background-repeat: no-repeat; background-size: 100%; animation: movimiento-nubes 5s linear infinite;    }
 
-.nubess{width: 30%; height: 40%; background-image: url("imgss/nube.png"); position: absolute;  background-repeat: no-repeat; background-size: 100%; animation: movimiento-nubes 10s linear infinite;    }
+.nubess{width: 30%; height: 40%; background-image: url("imgs/nube.png"); position: absolute;  background-repeat: no-repeat; background-size: 100%; animation: movimiento-nubes 10s linear infinite;    }
 
-.nubesss{width: 30%; height: 40%; background-image: url("imgss/nube.png"); position: absolute;  background-repeat: no-repeat; background-size: 100%; animation: movimiento-nubes 15s linear infinite;    }
+.nubesss{width: 30%; height: 40%; background-image: url("imgs/nube.png"); position: absolute;  background-repeat: no-repeat; background-size: 100%; animation: movimiento-nubes 15s linear infinite;    }
 
 
 @keyframes movimiento-nube{ 
